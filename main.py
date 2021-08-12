@@ -19,7 +19,7 @@ number = dicts[sel_words]
 
 name = st.text_input('Enter your name','')
 
-# app(number=number,usr_name=name)
+app(number=number,usr_name=name)
 
 # path = app.
 # st.audio(data ='example.wav',format= 'wav')
