@@ -15,6 +15,7 @@ def mapping_words(list_path):
     f_in.close()
     return dicts
 
+#  create a function to draw spectrogram 
 def draw_spectrogram(file_path) : 
     # Read the wav file 
     samplingFrequency, signalData = wavfile.read(file_path)

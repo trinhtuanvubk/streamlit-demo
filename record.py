@@ -9,8 +9,6 @@ from streamlit_webrtc import (
     webrtc_streamer,
 )
 
-
-
 # create a function to record voice of user 
 def app(number, usr_name):
     # create a function to format voice input files
