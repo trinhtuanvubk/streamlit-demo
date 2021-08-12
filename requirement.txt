@@ -1,0 +1,7 @@
+aiortc.contrib.media
+streamlit_webrtc
+ipywebrtc
+streamlit
+matplotlib
+numpy 
+scipy
