@@ -3,6 +3,7 @@ from IPython.display import Audio
 from ipywebrtc import CameraStream, AudioRecorder
 from record import app
 from helper import mapping_words
+import numpy as np 
 
 # titile 
 title = 'Hate Speech Detection'
@@ -11,8 +12,11 @@ st.write('''## Voice Data Collection''')
 
 # each words with a number 
 dicts = mapping_words('list_words.txt')
+print(dicts)
+print("ok")
 # get all words 
-words = set(dicts.keys())
+words = np.asarray((list(dicts.keys())))
+print("done")
 # the word that user choose 
 sel_words = st.sidebar.selectbox('Select Word',words)
 # number of the word 

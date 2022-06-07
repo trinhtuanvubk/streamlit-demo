@@ -36,6 +36,7 @@ def app(number, usr_name):
         ),
         # in_recorder_factory=in_recorder_factory,
         out_recorder_factory=out_recorder_factory,
+        sendback_audio=False
     )
     
 
